@@ -1,0 +1,31 @@
+{
+  "breakpoints": [
+    2.0,
+    133.74655871377325,
+    395.0380818958324,
+    614.0
+  ],
+  "segments": [
+    {
+      "segment": 1,
+      "x_start": 2,
+      "x_end": 133,
+      "avg_support_slope": -0.0005251282114444336,
+      "avg_support_intercept": 1.8218047658924725
+    },
+    {
+      "segment": 2,
+      "x_start": 133,
+      "x_end": 395,
+      "avg_support_slope": -0.0012506602833874353,
+      "avg_support_intercept": 1.9245443461965586
+    },
+    {
+      "segment": 3,
+      "x_start": 395,
+      "x_end": 614,
+      "avg_support_slope": -0.00016750454518784348,
+      "avg_support_intercept": 1.4954093961774257
+    }
+  ]
+}
