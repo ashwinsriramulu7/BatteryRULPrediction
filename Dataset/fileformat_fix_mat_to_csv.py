@@ -8,3 +8,9 @@ datadir = '/home/ashwin-sriramulu/Documents/work/BatteryRULPrediction/Dataset/Ra
 for folder in os.scandir(datadir):
     print(f"Directory Found: {folder.path}")
 
+#print files found per folder
+for folder in os.scandir(datadir):
+    print(f"Directory path: {folder.path}")
+    for file in os.listdir(folder):
+        print(f"\tfilename: {file}")
+
